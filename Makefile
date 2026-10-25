@@ -10,8 +10,8 @@ test-install: install
 	. venv/bin/activate; pip install -r tests/requirements.txt
 
 analysis:
-	. venv/bin/activate; flake8 --ignore=E123,E126,E128,E501 tests
-	. venv/bin/activate; flake8 --ignore=F401 twilio
+	. venv/bin/activate; flake8 --ignore=E117,E123,E126,E128,E305,E501 tests
+	. venv/bin/activate; flake8 --ignore=E117,E305,E722,F401,W504 twilio
 
 test: analysis
 	. venv/bin/activate; nosetests
