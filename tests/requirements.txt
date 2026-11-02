@@ -5,6 +5,6 @@ mock==5.2.0
 # both overwrites pynose.
 pynose==1.5.5
 coverage==7.17.0
-flake8==7.4.1
+flake8==7.5.0
 mccabe==0.7.0
 wheel==0.48.0
